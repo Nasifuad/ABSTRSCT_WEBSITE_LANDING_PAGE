@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.headerpanel{
+    width: 100%;
+    background-color: #000000 ;
+    display: flex;
+    justify-content:space-between;
+    height: 5vh;
+    padding: 0 260px;
+    
+}
+.abstract{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    color: white;
+    font-size: 30px;
+}
+.request{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+    
+}
+.submitbtn,.signbtn{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.req{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #171717dd;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.sign{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #2a5ba9f5;
+    border:none;
+    color: rgb(245, 246, 247);
+    border-radius: 5px
+}
+nav{
+    background-color: #dadbf1;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navpanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.navsearch{
+display: flex;
+align-items: center;
+gap: 10px;
+    
+}
+.navtext{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.srcin{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+}
+.srcin::placeholder{
+    font-size: 20px;
+}
+.srcarrow{
+ border: none;
+ border-radius: 5px;
+ height: 40px;
+ width: 90px;
+ color: #115ac6;
+ font-size: 22px;
+ cursor: pointer;
+}
+
+.maincontainer{
+    background-color: #fff;
+    height: 60vh;
+    padding:0 330px 0;
+}
+.firstline,.secondline,.thirdline{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+.mainelement1,.mainelement2{
+    display: flex;
+    align-items:flex-end;
+    gap: 10px;
+    width: 300px;
+}
+.maincontenttxt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.maincontent1{
+    font-size: 25px;
+    font-weight: bold;
+    padding:0 0 10px 0;
+}
+.content1{
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    
+}
+.maincontent2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.maincontent3{
+    color: rgb(5, 98, 159);
+    padding-top: 10px;
+}
+.footerpanel{
+    display: flex;
+    background: palegreen;
+    height: 15vh;
+    
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.footercontent1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.footercontent4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.abstractxt,.res,.community,.company,.logo1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.contact{
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
